@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "464405313832",
+    "project_id": "locnet-23c64",
+    "storage_bucket": "locnet-23c64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464405313832:android:846022e92cc7585f91f81d",
+        "android_client_info": {
+          "package_name": "com.mbilarus.locnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464405313832-t4t9294gar70idvsf67orenn546j6m4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mbilarus.locnet",
+            "certificate_hash": "6eeec57f6db366a8547f487cb200c7f7a2065c02"
+          }
+        },
+        {
+          "client_id": "464405313832-clkq26npv5qav0dpp7vbpprcn2g9e3rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiwurJVH3SQ2_rLWyq0igVJOzbzhYvgvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464405313832-clkq26npv5qav0dpp7vbpprcn2g9e3rq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464405313832-k534ailpdj28vankjcj2b33ss2l53nsj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mbilarus.locnet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

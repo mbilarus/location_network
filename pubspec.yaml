@@ -1,0 +1,72 @@
+name: loc_net
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  freezed: ^2.1.0+1
+  get: ^4.6.5
+  get_it: ^7.2.0
+  hydrated_bloc: ^8.1.0
+  bloc: ^8.1.0
+  build_runner: ^2.2.0
+  json_serializable: ^6.3.1
+  provider: ^6.0.3
+  json_annotation: ^4.6.0
+  firebase_core: ^1.22.0
+  firebase_auth: ^3.8.0
+  pinput: ^2.2.12
+  geolocator: ^9.0.1
+  flutter_svg: ^1.1.5
+  flutterfire_cli: ^0.2.6
+  flutter_login_vk: ^2.2.1
+  flutter_native_splash: ^2.2.9
+  cloud_firestore: ^3.4.8
+  image_picker: ^0.8.5+3
+  firebase_storage: ^10.3.8
+  nanoid: ^1.0.0
+  hive: ^2.2.3
+  path_provider: ^2.0.11
+
+flutter_native_splash:
+  image: assets/splashscreen.png
+  color: "#D4D6E7"
+  image_dark: assets/splashscreen.png
+  color_dark: "#282828"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.10.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 30
+  web:
+    generate: true
+    image_path: "assets/app_icon.png"
+    background_color: "#D4D6E7"
+    theme_color: "#D4D6E7"
+
+flutter:
+  assets:
+    - assets/logo.svg
+    - assets/app_icon.png
+    - assets/splashscreen.png
+    - assets/vk_logo.svg
+
+  uses-material-design: true
+
